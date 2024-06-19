@@ -1,1 +1,1 @@
-# JSF-bolsaTrabajo
+Este repositorio contiene un proyecto desarrollado en JavaServer Faces (JSF) para una bolsa de trabajo . Utiliza diversas tecnologías y características avanzadas de JSF, incluyendo Facelets, templates, componentes personal personalizados, eventos, internacionalización, convertidores y validadores.
