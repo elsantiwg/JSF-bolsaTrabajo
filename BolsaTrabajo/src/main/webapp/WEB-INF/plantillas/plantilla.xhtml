@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>Bolsa Trabajo</title>
+        <h:outputStylesheet library="css" name="estilos.css"/>
+    <h:body>
+        <div id="wrapper">
+            <div id ="header-wrapper">
+                <ui:insert name="top">
+                    <div id="logo">
+                        <<h1>bolsa de trabajo</h1>
+                    </div>
+                </ui:insert>
+            </div>
+            
+            <div id="pages">
+                <ui:insert name="content">contenido</ui:insert>
+            </div>
+            <div id="footer">
+                <ui:insert name="botoom">github elsantiwg</ui:insert>
+            </div>
+        </div>
+
+    </h:body>
+</h:html>
